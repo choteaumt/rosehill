@@ -9,9 +9,7 @@
 <body>
 	<?php
 		include $dir.'/partials/banner.inc';
-		if (isset($_SESSION['USER'])) {
-			include $dir.'/partials/menubar.inc';
-		}
+		include $dir.'/partials/menubar.inc';
 	?>
 
 	<div id="panel-container">
