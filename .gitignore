@@ -1,4 +1,35 @@
-configuration.inc
-build
-dist
-data/sessions/*
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Import data files — large binary, not source code
+*.xls
+*.xlsx
+*.csv
+/data/*
+!/data/.gitkeep
+
+# AI assistant instructions — local dev only
+CLAUDE.md
+.cursor*
+.windsurf*
+*.cursorrules
+
+# Docker local state — developers maintain their own overrides
+docker-compose.override.yml
