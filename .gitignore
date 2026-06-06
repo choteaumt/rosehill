@@ -33,3 +33,4 @@ CLAUDE.md
 
 # Docker local state — developers maintain their own overrides
 docker-compose.override.yml
+/mnt/user-data
